@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- 
+      This is an HTML comment
+      You can write text in a comment and the content won't be visible in the page
+    -->
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+
+    <!--
+      This is the page head - it contains info the browser uses
+      Like the title, which appears on the browser tab but not inside the page
+      Further down you'll see the content that displays in the page
+    -->
+
+    <title>My social website!</title>
+
+    <!-- The website stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- The website JavaScript file -->
+    <script src="/script.js" type="module" defer></script>
+
+    <!-- Meta info for sharing your site -->
+    <link rel="canonical" href="https://my-social-website.glitch.me/" />
+    <meta
+      name="description"
+      content="A simple website, built with Glitch. Remix it to get your own."
+    />
+    <meta name="robots" content="index,follow" />
+    <meta property="og:title" content="My social website!" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://my-social-website.glitch.me/" />
+    <meta
+      property="og:description"
+      content="A simple website, built with Glitch. Remix it to get your own."
+    />
+    <meta
+      property="og:image"
+      content="https://cdn.glitch.com/605e2a51-d45f-4d87-a285-9410ad350515%2Fhello-website-social.png?v=1616712748147"
+    />
+    <meta name="twitter:card" content="summary" />
+  </head>
+  <body>
+    <!--
+      The body includes the content you see in the page
+      Each element is defined using tags, like this <div></div>
+      The attributes like class="wrapper" let us style elements in the CSS
+    -->
+    <div class="wrapper">
+      <div class="content" role="main">
+        <!-- 🚧 Try changing the header text! 🚧 -->
+        <h1 class="title">Sue's social site!</h1>
+
+        <div class="imgholder">
+          <!--
+            This is an image element, add your own in Assets and copy the links,
+            including them as src attributes in the img 
+          -->
+          <img
+            src="https://cdn.glitch.global/c2f841c6-0e75-411b-bb13-f77a2e297573/create-project-sticker-student.svg?v=1704803238986"
+            class="illustration"
+            alt="Creator illustration"
+          />
+        </div>
+
+        <div class="instructions">
+          <p>
+            This is my new website! Remix to get your own copy, then change the
+            <span class="fileopener" data-file="index.html" data-line="70"
+              >content in the Glitch editor!</span
+            >
+          </p>
+        </div>
+
+        <!--
+          🚧 Put anything you like in the page! 🚧
+           
+          Try adding a link like this: 
+          <a href="https://www.glitch.com/">Glitch</a>
+
+          Or a paragraph like this:
+          <p>
+            I love HTML so much.
+          </p>
+
+          Check out the MDN docs for more
+          https://developer.mozilla.org/en-US/docs/Learn/HTML
+        -->
+        <div class="social">
+          <a href="https://bsky.app/profile/suesmith.lol">
+            <svg
+              class="social-profile-icon"
+              viewbox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+            >
+              <path
+                fill="currentColor"
+                d="M12 10.8c-1.087-2.114-4.046-6.053-6.798-7.995C2.566.944 1.561 1.266.902 1.565C.139 1.908 0 3.08 0 3.768c0 .69.378 5.65.624 6.479c.815 2.736 3.713 3.66 6.383 3.364q.204-.03.415-.056q-.207.033-.415.056c-3.912.58-7.387 2.005-2.83 7.078c5.013 5.19 6.87-1.113 7.823-4.308c.953 3.195 2.05 9.271 7.733 4.308c4.267-4.308 1.172-6.498-2.74-7.078a9 9 0 0 1-.415-.056q.21.026.415.056c2.67.297 5.568-.628 6.383-3.364c.246-.828.624-5.79.624-6.478c0-.69-.139-1.861-.902-2.206c-.659-.298-1.664-.62-4.3 1.24C16.046 4.748 13.087 8.687 12 10.8"
+              />
+            </svg>
+          </a>
+          <a
+            href="https://glasgow.social/@sue"
+            tabindex="-1"
+            rel="me"
+          >
+            <svg
+              class="social-profile-icon"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 216.4144 232.00976"
+              tabindex="0"
+              focusable="true"
+            >
+              <path
+                d="M107.86523 0C78.203984.2425 49.672422 3.4535937 33.044922 11.089844c0 0-32.97656262 14.752031-32.97656262 65.082031 0 11.525-.224375 25.306175.140625 39.919925 1.19750002 49.22 9.02375002 97.72843 54.53124962 109.77343 20.9825 5.55375 38.99711 6.71547 53.505856 5.91797 26.31125-1.45875 41.08203-9.38867 41.08203-9.38867l-.86914-19.08984s-18.80171 5.92758-39.91796 5.20508c-20.921254-.7175-43.006879-2.25516-46.390629-27.94141-.3125-2.25625-.46875-4.66938-.46875-7.20313 0 0 20.536953 5.0204 46.564449 6.21289 15.915.73001 30.8393-.93343 45.99805-2.74218 29.07-3.47125 54.38125-21.3818 57.5625-37.74805 5.0125-25.78125 4.59961-62.916015 4.59961-62.916015 0-50.33-32.97461-65.082031-32.97461-65.082031C166.80539 3.4535938 138.255.2425 108.59375 0h-.72852zM74.296875 39.326172c12.355 0 21.710234 4.749297 27.896485 14.248047l6.01367 10.080078 6.01563-10.080078c6.185-9.49875 15.54023-14.248047 27.89648-14.248047 10.6775 0 19.28156 3.753672 25.85156 11.076172 6.36875 7.3225 9.53907 17.218828 9.53907 29.673828v60.941408h-24.14454V81.869141c0-12.46875-5.24453-18.798829-15.73828-18.798829-11.6025 0-17.41797 7.508516-17.41797 22.353516v32.375002H96.207031V85.423828c0-14.845-5.815468-22.353515-17.417969-22.353516-10.49375 0-15.740234 6.330079-15.740234 18.798829v59.148439H38.904297V80.076172c0-12.455 3.171016-22.351328 9.541015-29.673828 6.568751-7.3225 15.172813-11.076172 25.851563-11.076172z"
+                fill="black"
+              />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- The footer holds our remix button — you can keep or delete it ✂ -->
+    <footer class="footer">
+      <a
+        class="btn--remix"
+        target="_top"
+        href="https://glitch.com/edit/#!/remix/suewtf"
+      >
+        <img
+          src="https://cdn.glitch.com/605e2a51-d45f-4d87-a285-9410ad350515%2FLogo_Color.svg?v=1618199565140"
+          alt=""
+        />
+        Remix on Glitch
+      </a>
+    </footer>
+    
+    <script>
+      /* Some Glitch editor tweaks */
+      try {
+        if (window.self === window.top) {
+          let fileopeners = Array.from(
+            document.getElementsByClassName("fileopener")
+          );
+          fileopeners.forEach((fo) => {
+            fo.classList.remove("fileopener");
+          });
+        }
+      } catch (e) {}
+    </script>
+  </body>
+</html>

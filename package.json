@@ -1,0 +1,27 @@
+{
+  "name": "suewtf",
+  "version": "0.0.1",
+  "description": "A simple site for social media.",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^4.0.0"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead"
+  ],
+  "engines": {
+    "node": "16.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/suewtf"
+  },
+  "author": "Sue Smith <sue@benormal.info>",
+  "glitch": {
+    "projectType": "generated_static"
+  }
+}
