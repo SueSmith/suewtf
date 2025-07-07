@@ -1,0 +1,26 @@
+# This file describes a Fastly Compute package. To learn more visit:
+# https://www.fastly.com/documentation/reference/compute/fastly-toml
+
+authors = ["Sue Smith <sue@benormal.info>"]
+description = "A simple site for social media."
+language = "javascript"
+manifest_version = 3
+name = "suewtf"
+service_id = "JTim91CeOWpLYXsanWY7i6"
+
+[local_server]
+
+  [local_server.kv_stores]
+
+    [local_server.kv_stores.suewtf-content]
+      file = "./static-publisher/kvstore.json"
+      format = "json"
+
+[scripts]
+  build = "npm run build"
+
+[setup]
+
+  [setup.kv_stores]
+
+    [setup.kv_stores.suewtf-content]
